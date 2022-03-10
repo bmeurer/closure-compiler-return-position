@@ -1,0 +1,17 @@
+{
+  "name": "closure-compiler-return-position",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "google-closure-compiler --js input.js --js_output_file out.js --create_source_map out.js.map --source_map_include_content --output_wrapper '%output%\n//# sourceMappingURL=out.js.map'",
+    "start": "serve"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "google-closure-compiler": "20220301.0.0",
+    "serve": "^13.0.2"
+  }
+}
